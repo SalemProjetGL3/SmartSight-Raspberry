@@ -1,0 +1,27 @@
+# MQTT Communication
+paho-mqtt==1.6.1
+
+# Computer Vision and Image Processing
+opencv-python-headless==4.8.1.78
+numpy==1.24.3
+Pillow==10.0.1
+
+# YOLO NAS S Dependencies
+super-gradients==3.3.0
+torch==2.1.0
+torchvision==0.16.0
+onnx==1.14.1
+onnxruntime==1.16.0
+
+# MIDAS Depth Estimation
+timm==0.9.7
+transformers==4.34.1
+
+# Utilities
+requests==2.31.0
+tqdm==4.66.1
+matplotlib==3.7.2
+scipy==1.11.3
+
+# Optional: For model optimization
+# tensorrt  # Uncomment if you plan to use TensorRT optimization
