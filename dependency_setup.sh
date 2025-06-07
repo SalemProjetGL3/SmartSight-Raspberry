@@ -34,14 +34,14 @@ sudo apt update
 sudo apt upgrade -y
 
 # Install Python and Pip (usually pre-installed on Raspberry Pi OS)
-sudo apt install -y python3 python3-pip python3-dev python3-venv
+#sudo apt install -y python3 python3-pip python3-dev python3-venv
 
 
 # Install libcamera and Picamera2 for the Sony IMX708 camera
-sudo apt install -y python3-picamera2 --no-install-recommends
+#sudo apt install -y python3-picamera2 --no-install-recommends
 
 # Install system dependencies for OpenCV and other packages
-sudo apt install -y libatlas-base-dev libhdf5-dev libhdf5-serial-dev libatlas3-base libjasper-dev libqtgui4 libqt4-test
+#sudo apt install -y libatlas-base-dev libhdf5-dev libhdf5-serial-dev libatlas3-base libjasper-dev libqtgui4 libqt4-test
 
 # Create virtual environment (recommended for Python packages)
 python3 -m venv ~/cv_env
